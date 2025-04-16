@@ -1,0 +1,44 @@
+:root {
+    background-color: antiquewhite;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    /* 1rem = 10px */
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #d6d6d6;
+}
+
+header {
+    background-color: #555;
+    text-align: center;
+}
+
+header h1 {
+    color: transparent!important;
+    font-size: 5rem;
+    font-weight: 900;
+    background-image: url("../assets/banner-titulo.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-clip: text;
+}
+
+.logo {
+    border-radius: 5rem;
+}
+
+header nav a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 10rem;
+}

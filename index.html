@@ -5,13 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="tablas, frecuencias, periodos, Rudolf Hertz, matematicas">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="shortcut icon" href="./assets/UTN_logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        header img {
+            width: 8rem;
+            height: 8rem;
+        }
+
+        .logo-titulo h1 {
+            color: rgb(55, 116, 247);
+        }
+
+        #seccion-parrafo1 {
+            text-align: center;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./css/app.css">
     <title>Inicio</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <div class="logo-titulo">
+            <img class="logo" src="./assets/UTN_logo.ico" alt="logo">
+
+            <h1>Prácticos UTN</h1>
+        </div>
+        
+        <nav class="menu">
             <a href="#">Inicio</a>
             <a href="./templates/galeria.html">Galeria</a>
             <a href="./templates/tabla.html">Tabla</a>
@@ -25,7 +53,8 @@
         <section>
             <a>
                 <h1>Tabla</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit molestiae possimus repellat veniam
+                <p id="seccion-parrafo1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit molestiae
+                    possimus repellat veniam
                     illum nesciunt accusantium incidunt quae dignissimos assumenda architecto magni, ratione voluptatem
                     blanditiis inventore eligendi laborum nisi alias est? Illo animi id suscipit vitae enim. Non
                     praesentium itaque ipsam, hic officia temporibus pariatur?</p>
